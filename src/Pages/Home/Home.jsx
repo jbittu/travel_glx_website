@@ -4,6 +4,9 @@ import Hero from './HomeComponents/Hero'
 import "./HomeStyle.css"
 import About from './HomeComponents/About'
 import Service from './HomeComponents/Services'
+import CallToAction from './HomeComponents/CallToAction'
+import Faq from './HomeComponents/FaQ'
+
 
 
 
@@ -14,7 +17,8 @@ const Home = () => {
         <Hero />
         <About />
         <Service />
-      
+        <CallToAction />
+        <Faq />
     </div>
   )
 }

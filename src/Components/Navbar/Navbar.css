@@ -29,12 +29,13 @@ nav .menu a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    transition: 0.3s ease;
+    /* transition: 0.3s ease; */
 }
 
 nav .menu a:hover {
-    
-    border-radius: 5px;
+    color: blue;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
 }
 
 @media(max-width: 700px) {
