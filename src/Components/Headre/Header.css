@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.header h1{
+    font-size: 50px;
+    gap: 50px;
+}

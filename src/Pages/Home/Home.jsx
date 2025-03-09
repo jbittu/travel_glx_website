@@ -6,6 +6,7 @@ import About from './HomeComponents/About'
 import Service from './HomeComponents/Services'
 import CallToAction from './HomeComponents/CallToAction'
 import Faq from './HomeComponents/FaQ'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
         <Service />
         <CallToAction />
         <Faq />
+        <Footer />
     </div>
   )
 }
