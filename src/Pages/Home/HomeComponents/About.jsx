@@ -8,21 +8,42 @@ const About = () => {
       <section className="about">
         <img src={aboutImg} alt="about img" />
         <div className="content">
-          <h2>lorem text</h2>
+          <h2>About Galaxy Travel</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-            doloremque aspernatur consequuntur excepturi odio obcaecati? Modi
-            vitae eos voluptate facilis? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fugiat, doloremque aspernatur consequuntur
-            excepturi odio obcaecati? Modi vitae eos voluptate facilis?
+            Welcome to <strong>Galaxy Travel</strong>, your gateway to the ultimate space
+            tourism experience! Our mission is to make interstellar travel
+            accessible, exciting, and unforgettable for adventurers like
+            you. Whether you dream of floating in zero gravity, witnessing Earth
+            from space, or stepping onto another planet, we bring those dreams
+            to life.
           </p>
+
+          <h3>🌌 Our Journey</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            impedit modi corrupti recusandae, molestias corporis tempore ipsum
-            similique pariatur molestiae, fuga illo error deserunt maxime
-            laboriosam. Soluta, quisquam. Libero, obcaecati.
+            Founded by a team of space enthusiasts, engineers, and
+            visionaries, <strong>Galaxy Travel</strong> started as a dream—to take humanity
+            beyond Earth’s boundaries. With cutting-edge technology,
+            safety-first engineering, and partnerships with top aerospace
+            companies, we are making space travel a reality for everyone.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis odio tempore, odit beatae, fugit, sunt dolorum debitis itaque mollitia eveniet possimus quae error! Repudiandae accusamus, quae maiores atque natus accusantium omnis sit! Repellat dolorem officia quidem voluptate cupiditate consequuntur consectetur perspiciatis adipisci quis, eaque cum at aut animi blanditiis necessitatibus.</p>
+
+          <h3>🚀 What We Offer</h3>
+          <p>
+            Our space travel programs are designed for all levels of
+            explorers, from first-time space tourists to seasoned astronauts.
+            Our customizable space packages include:
+          </p>
+         
+
+          
+          
+
+          <h3>🌎 Join the Future of Space Travel with <strong>Galaxy Travel</strong></h3>
+          <p>
+            Are you ready to take your first step beyond Earth? Join Galaxy
+            Travel today and become a pioneer of space tourism. The universe
+            is waiting for you! 🚀✨
+          </p>
         </div>
       </section>
     </>

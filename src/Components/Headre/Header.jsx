@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import headerImg from "../../assets/header.jpg";
-const Header = ({heading}) => {
+const Header = ({heading, discription}) => {
   return (
     <>
       <section
@@ -14,9 +14,7 @@ const Header = ({heading}) => {
       >
         <h1>{heading}</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-          suscipit odit aspernatur accusantium cum molestiae ipsa minima soluta
-          quam perspiciatis.
+         {discription}
         </p>
       </section>
     </>

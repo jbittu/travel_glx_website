@@ -1,0 +1,158 @@
+.cards {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Header Styles */
+.content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Pricing Section */
+.pricing {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.pricing h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ffcc00;
+}
+
+/* Pricing List */
+.pricing ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.pricing li {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 100px;
+  border: 1px solid rgb(39, 5, 5);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Price Text */
+.pricing span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ff5733;
+}
+
+/* Plan Buttons */
+.pricing button {
+  background: #6e8df3;
+  color: #1c1c3c;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pricing button:hover {
+  background: #ff5733;
+  color: white;
+}
+
+/* Book Now Button */
+.book-now {
+  background: #ffcc00;
+  color: #1c1c3c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-now:hover {
+  background: #ff5733;
+  color: white;
+}
+
+/* RESPONSIVENESS */
+
+/* Tablet Screens */
+@media (max-width: 768px) {
+  .pricing ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing li {
+    width: 90%; /* Adjusting for smaller screens */
+    height: auto;
+    padding: 15px;
+  }
+
+  .content h2 {
+    font-size: 1.3rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .pricing h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+  .cards {
+    padding: 15px;
+  }
+
+  .content h2 {
+    font-size: 1.2rem;
+  }
+
+  .content p {
+    font-size: 0.85rem;
+  }
+
+  .pricing h3 {
+    font-size: 1rem;
+  }
+
+  .pricing li {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .book-now {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 0;
+  }
+}
