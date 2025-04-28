@@ -5,7 +5,7 @@ import "./HomeStyle.css"
 import About from './HomeComponents/About'
 import Service from './HomeComponents/Services'
 import CallToAction from './HomeComponents/CallToAction'
-import Faq from './HomeComponents/FaQ'
+import Faq from './HomeComponents/Faq'
 import Footer from '../../Components/Footer/Footer'
 
 
